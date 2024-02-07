@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Consolas";
+    src: url("/fonts/consolas.ttf") format("truetype");
+      }
+  
+  body {
+      background: black;
+  }
+  
+  div.title {
+      flex-shrink: 0;
+      color: #f51659;
+      text-align: center;
+      font-family: Consolas, "Courier New";
+      font-style: medium;
+      font-style: o;
+      font-weight: 10%;
+      line-height: medium;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-shadow: 0px 0px  1.5px rgb(255, 255, 255);
+      animation: opacity 5s reverse ;
+      opacity: 0;
+       
+  }
+  
+  .terminal {
+      color: #f51659;
+      text-align: center;
+      font-family: Consolas, "Courier new" ;
+      text-transform: uppercase;
+      font-size: 18;
+      display: flex;
+      max-width: 50%;
+      height: auto;
+      margin: auto;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      flex-wrap: wrap;
+      align-content: center;
+      text-shadow: 0px 0px  1.5px rgb(255, 255, 255);
+
+  }
+  
+  .one {
+    overflow: hidden;
+    animation: typing 1s steps(60,end);
+    transition: 2s;
+    margin: 10%;
+
+  }
+  
+  .two {
+    overflow: hidden;
+    animation: typing 2s steps(60,end);
+    transition: 2s;
+    margin: 10%;
+  }
+  
+  .three {
+    overflow: hidden;
+    animation: typing 5s steps(60,end);
+    transition: 2s;
+    margin: 10%;
+  }
+  
+  .four {
+    overflow: hidden;
+    animation: typing 5s steps(60,end);
+    transition: 2s;
+    margin: 10%;
+  }
+
+  .load {
+    animation: opacity .5s infinite;
+    transition: 2s;
+  
+  }  
+  
+  .container {
+    margin: 20px auto;
+    margin-top: 10;
+    width: 50%;
+    text-align: center;
+    border-style: solid;
+    border-width: .1px;
+  
+  
+  }
+  
+  .progress {
+    padding: px;
+    background: blackwhite;
+    box-shadow: inset 0 1px 2px #f51659;
+    transition: 2s;
+  }
+  
+  .progress-bar {	
+    height: 18px;
+      background-color: #fa5a8a;  
+    transition: 2s linear;  
+    transition-property: width, background-color;
+    transition: 2s;    
+  }
+  
+  .progress-striped .progress-bar { 	
+    background-color: #f51659; 
+    width: 100%; 
+    animation: progressAnimationStrike 5s;
+  }
+  
+  .cl {
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto ;
+    font-family: Consolas, "Courier new";
+    font-size: 200%;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: opacity .5s infinite linear;
+    animation-delay: 5s;
+    background-color: #f51659;
+    border: 0px solid ;
+    transition-duration: 0.4s;
+  }
+  
+  .cl:hover {
+    color: #f51659;
+    background-color: black ;
+    border: #f51659 solid;
+  }
+  
+  @keyframes progressAnimationStrike {
+       from { width: 0 }
+       to   { width: 100% }
+  }
+    
+   @keyframes blink{
+      0%{}
+      100% {
+        background: white;
+        color: black;
+      }
+    }
+    
+    @keyframes opacity{
+      0%{
+        opacity: 0%;
+      }
+      100% {
+        opacity: 100%;
+      }
+    }
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+  
+    
