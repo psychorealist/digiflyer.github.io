@@ -15,18 +15,24 @@ btn.onclick = function() {
   document.querySelector('.terminal').style.color = 'white';
   document.querySelector('.cl').style.animation = 0 ;
   document.querySelector('.terminal').style.color = 'white';
-  document.querySelector('.five').style.opacity = 1 ;
-
+  document.querySelector('#tixOne').style.opacity = 1 ;
+  document.querySelector('#tixTwo').style.opacity = 1 ;
 };
 
 btn.addEventListener('click', function (){
     txtOne.textContent = `[This week find Giotto at:]`;
     txtTwo.textContent = `Giotto visual installation 
-    [Party: LATEX. // ALL NIGHT LONG // CUPID CUCKOLD EDITION]
-     [Location: Union Francis]
-     [Line-up: Nikolina (BER ) // Pretty Privilege // Skesa // Esther Cote // Field Note // Neo Edo // Crissemarqueur //Dulce Villano // Giotto // Oil Wrestling // Knotty Boy  X willow // Double Trouble // Anne // Daskao & The Replicant Girls //  ]
-    [Tix: $40]  
-    [Time: Saturday February 10th (10pm-7am) `; 
+    [Party: No Waves EP Launch party]
+     [Location: LE NINETY, 4361 Saint Denis]
+     [Line-up: No waves // Public Appeal // Musique sensible (Mertin Hoak) // Beamski b2b 1800pastamoney //  ]
+    [Tix: $5 online // $10 at the door ]  
+    [Time: Saturday February 23rd (starts 7pm)] `; 
+    txtThree.textContent = `Giotto Live Visuals  
+    [Party: Laylit #65]
+     [Location: Ausgang Plaza,  6524 Rue St-Hubert]
+     [Line-up: Mounsz // Manalou // MNSA // Isa Boom //  ]
+    [Tix: $30 online // $40 at the door ]  
+    [Time: Saturday February 24th, 10pm -3am]`; 
     
    
 })
