@@ -39,7 +39,7 @@
       text-transform: uppercase;
       font-size: 18;
       display: flex;
-      max-width: 50%;
+      max-width: 100%;
       height: auto;
       margin: auto;
       flex-direction: column;
