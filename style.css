@@ -7,6 +7,10 @@
       background: black;
   }
   
+  button {
+    text-decoration: none;
+  }
+
   div.title {
       flex-shrink: 0;
       color: #f51659;
@@ -61,7 +65,21 @@
     transition: 2s;
     margin: 10%;
   }
+
+  .three {
+    overflow: hidden;
+    animation: typing 5s steps(100,end);
+    transition: 2s;
+    margin: 10%;
+  }
   
+  .tix {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
+
   .load {
     animation: opacity .5s infinite;
     transition: 2s;
@@ -123,6 +141,7 @@
   a {
     color: white;
     animation: blink .5s infinite;
+    
   }
 
   a:hover {
@@ -136,6 +155,8 @@
     background-color: black ;
     border: #f51659 solid;
   }
+
+  
   
   @keyframes progressAnimationStrike {
        from { width: 0 }
