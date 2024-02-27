@@ -77,7 +77,31 @@
     opacity: 0;
     display: flex;
     justify-content: center;
-    margin-bottom: 10%;
+  
+  }
+
+  .location {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+    margin: 5%;
+    
+  }
+  
+  .mI {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+   font-size: 15pt;
+    margin: 5%;
+    
+  }
+  .otherInfo {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    
   }
 
   .load {
@@ -141,6 +165,7 @@
   a {
     color: white;
     animation: blink .5s infinite;
+  
     
   }
 
