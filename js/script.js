@@ -30,7 +30,7 @@ btn.addEventListener('click', function (){
     [Party: unknown artist]
     [Line-up: Vika // Pretty Privilege // Sandinista ]
     [Time: Wednesday February 28th (10pm - 3am)] 
-    [Tix: Free (limited capacity) ] `; 
+    [Tix: $5 at the door  ] `; 
     txtThree.textContent = `Giotto Live Visuals and Installation
 [Party: Nuit Blanche at the Phi Center]
 [Line-up: C Lia // Cheba Iman // Crissmarqueur ]
