@@ -15,7 +15,7 @@ btn.onclick = function() {
   document.querySelector('.terminal').style.color = 'white';
   document.querySelector('.cl').style.animation = 0 ;
   document.querySelector('.terminal').style.color = 'white';
-  document.querySelector('#tixOne').style.opacity = 1 ;
+ document.querySelector('#tixOne').style.opacity = 1 ;
   document.querySelector('#tixTwo').style.opacity = 1 ;
   document.querySelector('#locationOne').style.opacity = 1 ;
   document.querySelector('#locationTwo').style.opacity = 1 ;
@@ -27,11 +27,15 @@ btn.onclick = function() {
 btn.addEventListener('click', function (){
     txtOne.textContent = `[This week find Giotto at:]`;
     txtTwo.textContent = `Giotto Live Visuals and Installation
-    [Party: Latex]
-    [Line-up: Crissemarqueur b2b esme // Deepneue // Destiny // Dileta // Divina// Lis Dalton// Syana //]
-    [Time: Wednesday March 15th (10pm - 6am)] 
-    [Tix: $40 ] `; 
- 
+    [Party: Homegrown Harvest X Flush]
+    [Line-up: Clark Price // Jennifer Cardini // Regal86 // RON LIKE HELL // H1BOU B2B DIJIPOUNE // Zi! // Syana ]
+    [Time: Wednesday March 30th (10pm - 6am)] 
+     `; 
+    txtThree.textContent = `Giotto Live Visuals and Installation
+[Party: Nuit Blanche at the Phi Center]
+[Line-up: C Lia // Cheba Iman // Crissmarqueur ]
+[Time: Wednesday March 2nd (9pm - 3am)] 
+ [Tix: Free (limited capacity) ] `; 
     
    
 })
