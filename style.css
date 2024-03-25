@@ -181,8 +181,17 @@
     border: #f51659 solid;
   }
 
+  .tix {
+    text-align: center;
+  }
+
+  .location {
+    text-align: center;
+  }
   
-  
+  .mI {
+    text-align: center;
+  }
   @keyframes progressAnimationStrike {
        from { width: 0 }
        to   { width: 100% }
