@@ -31,11 +31,11 @@ btn.addEventListener('click', function (){
     [Line-up: Clark Price // Jennifer Cardini // Regal86 // RON LIKE HELL // H1BOU B2B DIJIPOUNE // Zi! // Syana ]
     [Time: Wednesday March 30th (10pm - 6am)] 
      `; 
-    txtThree.textContent = `Giotto Live Visuals and Installation
-[Party: Nuit Blanche at the Phi Center]
-[Line-up: C Lia // Cheba Iman // Crissmarqueur ]
-[Time: Wednesday March 2nd (9pm - 3am)] 
- [Tix: Free (limited capacity) ] `; 
+    txtThree.textContent = `Giotto Live Visuals (behind the scenes)
+[Party:Ciel Noir at l'Olympia]
+[Line-up: Codeine // Duster // Pelada // Model/Actriz // Snow Strippers ]
+[Time: Sunday March 31s (8pm - 2am)] 
+  `; 
     
    
 })
