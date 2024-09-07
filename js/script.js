@@ -27,15 +27,15 @@ btn.onclick = function() {
 btn.addEventListener('click', function (){
     txtOne.textContent = `[This week find Giotto at:]`;
     txtTwo.textContent = `Giotto Live Visuals and Installation
-    [Party: Homegrown Harvest X Flush]
-    [Line-up: Clark Price // Jennifer Cardini // Regal86 // RON LIKE HELL // H1BOU B2B DIJIPOUNE // Zi! // Syana ]
-    [Time: Wednesday March 30th (10pm - 6am)] 
+    [Party: Bliss]
+    [Line-up: Byron Yeates // Pascale Projects // Raveld ]
+    [Time: Wednesday September 7th (10pm - 7am)] 
      `; 
-    txtThree.textContent = `Giotto Live Visuals (behind the scenes)
-[Party:Ciel Noir at l'Olympia]
-[Line-up: Codeine // Duster // Pelada // Model/Actriz // Snow Strippers ]
-[Time: Sunday March 31s (8pm - 2am)] 
-  `; 
+//     txtThree.textContent = `Giotto Live Visuals (behind the scenes)
+// [Party:Ciel Noir at l'Olympia]
+// [Line-up: Codeine // Duster // Pelada // Model/Actriz // Snow Strippers ]
+// [Time: Sunday March 31s (8pm - 2am)] 
+//   `; 
     
    
 })
