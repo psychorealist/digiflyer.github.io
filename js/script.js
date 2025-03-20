@@ -26,10 +26,10 @@ btn.onclick = function() {
 
 btn.addEventListener('click', function (){
     txtOne.textContent = `[This week find Giotto at:]`;
-    txtTwo.textContent = `Giotto Live Visuals and Installation
-    [Party: Bliss]
-    [Line-up: Priori // Pascale Projects // Raveld ]
-    [Time: Wednesday September 7th (10pm - 7am)] 
+    txtTwo.textContent = `Giotto Visuals and Installation
+    [Party: Flush X Supernature ]
+    [Line-up: Liv K // Divina // Paolo Askia // Dijipoune // Field Note // Crusty By Duffy (lights) ]
+    [Time: Friday March 21st (10:30pm - 7am)] 
      `; 
 //     txtThree.textContent = `Giotto Live Visuals (behind the scenes)
 // [Party:Ciel Noir at l'Olympia]
