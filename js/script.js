@@ -27,9 +27,9 @@ btn.onclick = function() {
 btn.addEventListener('click', function (){
     txtOne.textContent = `[This week find Giotto at:]`;
     txtTwo.textContent = `Giotto Visuals and Installation
-    [Party: Flush X Supernature ]
-    [Line-up: Liv K // Divina // Paolo Askia // Dijipoune // Field Note // Crusty By Duffy (lights) ]
-    [Time: Friday March 21st (10:30pm - 7am)] 
+    [Party: Unkown Artist at Barbossa ]
+    [Line-up: Sam Blake // Bonnie-V // Lou Celsius ]
+    [Time: Thursday July 24th (10:00pm - 3:00am)] 
      `; 
 //     txtThree.textContent = `Giotto Live Visuals (behind the scenes)
 // [Party:Ciel Noir at l'Olympia]
