@@ -1,0 +1,15 @@
+
+{
+  "name": "digiflyer-website",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^5.0.1"
+  }
+}
