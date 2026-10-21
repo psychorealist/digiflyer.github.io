@@ -45,17 +45,16 @@ btn.onclick = function() {
 
 btn.addEventListener('click', function (){
     txtOne.textContent = `[This week find Giotto at:]`;
-    txtTwo.textContent = `Giotto Chill Room Installation
-    [Party: Ether X Naff ]
-    [Line-up: OK EG (Live) // Notte Infinita // Miette // Asha ]
-    [Time: Saturday October 10th (10:00pm - 7:00am)]
-    [+ ????? suprise opening b2b ;)]
+    txtTwo.textContent = `Giotto Visuals Installation
+    [Party: Rue Yi Live ]
+    [Line-up: Rue Yi Band // Ritual Instincts  // Richard ]
+    [Time: Thursday October 22nd (Doors at 7:30pm)]
      `; 
-    txtThree.textContent = `Giotto Fabric Works
-[Party:Flush]
-[Line-up: Zi! (Live) // Fieldnote (Live) // Dj Spirit // Dj Hermano // Sam Blake // Aduunya ]
-[Time: Sunday March 31s (9pm - ?)] 
-[Happy birthday Reid :)))]
+    txtThree.textContent = `Giotto Visuals Installation
+[Party: Dernier Party]
+[Line-up: ?????????????????????? ]
+[Time: Friday - Sunday ] 
+[ Bye bye P*****tt* its been a pleasure ]
   `; 
     
    
