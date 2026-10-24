@@ -50,11 +50,11 @@ btn.addEventListener('click', function (){
     [Line-up: Rue Yi Band // Ritual Instincts  // Richard ]
     [Time: Thursday October 22nd (Doors at 7:30pm)]
      `; 
-    txtThree.textContent = `Giotto Visuals Installation
-[Party: Dernier Party]
+    txtThree.textContent = `Giotto materials Installation
+[Party: Final Flip]
 [Line-up: ?????????????????????? ]
 [Time: Friday - Sunday ] 
-[ Bye bye P*****tt* its been a pleasure ]
+[ Bye bye Parquette its been a pleasure ]
   `; 
     
    
